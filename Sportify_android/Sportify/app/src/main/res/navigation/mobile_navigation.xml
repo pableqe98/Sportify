@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.sportify.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_mis_eventos"
+        android:name="com.example.sportify.ui.mis_eventos.MisEventosFragment"
+        android:label="@string/title_mis_eventos"
+        tools:layout="@layout/fragment_mis_eventos" />
+
+    <fragment
+        android:id="@+id/navigation_equipos"
+        android:name="com.example.sportify.ui.equipos.EquiposFragment"
+        android:label="@string/title_equipos"
+        tools:layout="@layout/fragment_equipos" />
+    <fragment
+        android:id="@+id/navigation_chats"
+        android:name="com.example.sportify.ui.chats.ChatsFragment"
+        android:label="@string/title_chats"
+        tools:layout="@layout/chats_fragment" />
+    <fragment
+        android:id="@+id/navigation_herramientas"
+        android:name="com.example.sportify.ui.herramientas.HerramientasFragment"
+        android:label="@string/title_herramientas"
+        tools:layout="@layout/herramientas_fragment" />
+</navigation>

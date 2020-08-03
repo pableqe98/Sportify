@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sportify</string>
+    <string name="err_email">Email incorrecto</string>
+    <string name="err_password">Contraseña incorrecta</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_mis_eventos">Mis Eventos</string>
+    <string name="title_equipos">Equipos</string>
+    <string name="title_chats">Chats</string>
+    <string name="title_herramientas">Herramientas</string>
+</resources>
