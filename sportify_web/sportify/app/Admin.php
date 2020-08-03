@@ -1,0 +1,32 @@
+<?php
+
+namespace App;
+
+use Illuminate\Notifications\Notifiable;
+use Illuminate\Foundation\Auth\User as Authenticatable;
+
+class Admin extends Authenticatable
+{
+    use Notifiable;
+
+    protected $guard = 'admin';
+    protected $primaryKey = 'id_admin';
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'id_admin', 'password', 'tlf_a', 'email',
+    ];
+
+    /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
+    protected $hidden = [
+        'password', 'remember_token',
+    ];
+}

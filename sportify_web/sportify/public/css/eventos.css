@@ -1,0 +1,15 @@
+.mis_eventos{
+    width: 85%;
+    
+}
+
+.card-img-top{
+    height: 30vh;
+}
+
+#calendar {
+    max-width: 1300px;
+}
+.fc-time{
+    display : none;
+}

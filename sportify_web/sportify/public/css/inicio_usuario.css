@@ -1,0 +1,19 @@
+.hide {
+    display: none;
+}
+
+.card {
+    margin: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .main-container {
+        padding-top: 10vh;
+    }
+}
+
+.list-group {
+    max-height: 50vh;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}

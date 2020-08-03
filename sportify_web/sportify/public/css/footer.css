@@ -1,0 +1,41 @@
+html,
+body {
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 50px;
+}
+
+@media (max-width: 979px) {
+    body {
+        padding-top: 0px;
+    }
+}
+
+.main-container {
+    min-height: 100vh;
+    /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 25%;
+    /* height of your footer */
+}
+
+.container {
+    margin-bottom: 61px;
+}
+
+.page-footer {
+    background-color: #fafafa;
+    position: absolute;
+    max-height: 25%;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .page-footer {
+        display: none;
+    }
+}
